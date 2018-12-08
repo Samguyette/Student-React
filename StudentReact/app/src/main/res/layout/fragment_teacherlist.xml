@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t2">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        ></include>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_two"
+        android:layout_width="373dp"
+        android:layout_height="303dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        tools:itemCount="11">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginRight="-67dp"
+        android:fontFamily="@font/open_sans"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#424242"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/clearAllBtn"
+        android:layout_width="137dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="455dp"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/open_sans"
+        android:onClick="deleteAllQues"
+        android:text="Clear"
+        android:textAllCaps="true"
+        android:textColor="#eeeeee"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

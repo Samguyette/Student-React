@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/askquestion">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        ></include>
+
+
+    <EditText
+        android:id="@+id/edt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="186dp"
+        android:autofillHints=""
+        android:fontFamily="@font/open_sans"
+        android:hint="Topic"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_title"
+        android:autofillHints=""
+        android:fontFamily="@font/open_sans"
+        android:hint="Question"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/edt_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="149dp"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/open_sans"
+        android:text="POST"
+        android:textColor="#eeeeee"
+        android:textSize="18sp" />
+
+</RelativeLayout>

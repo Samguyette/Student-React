@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/UpdateBtn"
+        android:title="@string/update_name"></item>
+    <item
+        android:id="@+id/ClearAllBtn"
+        android:title="Clear All"></item>
+</menu>

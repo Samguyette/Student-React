@@ -1,0 +1,4 @@
+#Wed Dec 05 17:33:57 PST 2018
+base.0=/Users/Sam/Desktop/StudentReact/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/thumbdown">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        ></include>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:fontFamily="@font/open_sans"
+        android:textAllCaps="true"
+        android:textColor="#424242"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/teacherTopicTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp"
+        android:text="Empty"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/reviewCkicksTextView"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="156dp"
+        android:fontFamily="@font/open_sans"
+        android:text="R"
+        android:textAllCaps="false"
+        android:textColor="#424242"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/removeTopicBtn"
+        android:layout_width="137dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="443dp"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/open_sans"
+        android:text="Remove Topic"
+        android:textAllCaps="true"
+        android:textColor="#eeeeee"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
